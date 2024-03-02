@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		91D6EB8C2B919BF300AF7542 /* PrimoFioriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EB8B2B919BF300AF7542 /* PrimoFioriApp.swift */; };
-		91D6EB8E2B919BF300AF7542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EB8D2B919BF300AF7542 /* ContentView.swift */; };
 		91D6EB902B919BF600AF7542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D6EB8F2B919BF600AF7542 /* Assets.xcassets */; };
 		91D6EB932B919BF600AF7542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D6EB922B919BF600AF7542 /* Preview Assets.xcassets */; };
 		91D6EB952B919BF600AF7542 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EB942B919BF600AF7542 /* Persistence.swift */; };
@@ -16,6 +15,14 @@
 		91D6EBA22B919BF600AF7542 /* PrimoFioriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBA12B919BF600AF7542 /* PrimoFioriTests.swift */; };
 		91D6EBAC2B919BF600AF7542 /* PrimoFioriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBAB2B919BF600AF7542 /* PrimoFioriUITests.swift */; };
 		91D6EBAE2B919BF600AF7542 /* PrimoFioriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBAD2B919BF600AF7542 /* PrimoFioriUITestsLaunchTests.swift */; };
+		91D6EBBC2B91A1D600AF7542 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBBB2B91A1D600AF7542 /* MenuList.swift */; };
+		91D6EBBE2B91A20700AF7542 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBBD2B91A20700AF7542 /* MenuItem.swift */; };
+		91D6EBC92B92C89C00AF7542 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBC82B92C89C00AF7542 /* FetchedObjects.swift */; };
+		91D6EBCB2B92CA1000AF7542 /* DisplayDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBCA2B92CA1000AF7542 /* DisplayDish.swift */; };
+		91D6EBCF2B92CE1000AF7542 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBCE2B92CE1000AF7542 /* MenuView.swift */; };
+		91D6EBD12B92CE6B00AF7542 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBD02B92CE6B00AF7542 /* OnboardingView.swift */; };
+		91D6EBD42B92D24700AF7542 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBD32B92D24700AF7542 /* HomeView.swift */; };
+		91D6EBD82B92D61700AF7542 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6EBD72B92D61700AF7542 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 /* Begin PBXFileReference section */
 		91D6EB882B919BF300AF7542 /* PrimoFiori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimoFiori.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D6EB8B2B919BF300AF7542 /* PrimoFioriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoFioriApp.swift; sourceTree = "<group>"; };
-		91D6EB8D2B919BF300AF7542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91D6EB8F2B919BF600AF7542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D6EB922B919BF600AF7542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91D6EB942B919BF600AF7542 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +54,14 @@
 		91D6EBA72B919BF600AF7542 /* PrimoFioriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimoFioriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D6EBAB2B919BF600AF7542 /* PrimoFioriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoFioriUITests.swift; sourceTree = "<group>"; };
 		91D6EBAD2B919BF600AF7542 /* PrimoFioriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoFioriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91D6EBBB2B91A1D600AF7542 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		91D6EBBD2B91A20700AF7542 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		91D6EBC82B92C89C00AF7542 /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		91D6EBCA2B92CA1000AF7542 /* DisplayDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDish.swift; sourceTree = "<group>"; };
+		91D6EBCE2B92CE1000AF7542 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		91D6EBD02B92CE6B00AF7542 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		91D6EBD32B92D24700AF7542 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		91D6EBD72B92D61700AF7542 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +112,17 @@
 		91D6EB8A2B919BF300AF7542 /* PrimoFiori */ = {
 			isa = PBXGroup;
 			children = (
+				91D6EBD22B92D23400AF7542 /* home */,
+				91D6EBCD2B92CE0100AF7542 /* onboarding */,
+				91D6EBC32B91A44400AF7542 /* menu */,
+				91D6EBC22B91A43000AF7542 /* profile */,
+				91D6EBBA2B91A19400AF7542 /* models */,
 				91D6EB8B2B919BF300AF7542 /* PrimoFioriApp.swift */,
-				91D6EB8D2B919BF300AF7542 /* ContentView.swift */,
 				91D6EB8F2B919BF600AF7542 /* Assets.xcassets */,
 				91D6EB942B919BF600AF7542 /* Persistence.swift */,
 				91D6EB962B919BF600AF7542 /* PrimoFiori.xcdatamodeld */,
 				91D6EB912B919BF600AF7542 /* Preview Content */,
+				91D6EBCA2B92CA1000AF7542 /* DisplayDish.swift */,
 			);
 			path = PrimoFiori;
 			sourceTree = "<group>";
@@ -131,6 +150,48 @@
 				91D6EBAD2B919BF600AF7542 /* PrimoFioriUITestsLaunchTests.swift */,
 			);
 			path = PrimoFioriUITests;
+			sourceTree = "<group>";
+		};
+		91D6EBBA2B91A19400AF7542 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				91D6EBBB2B91A1D600AF7542 /* MenuList.swift */,
+				91D6EBBD2B91A20700AF7542 /* MenuItem.swift */,
+				91D6EBC82B92C89C00AF7542 /* FetchedObjects.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		91D6EBC22B91A43000AF7542 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				91D6EBD72B92D61700AF7542 /* ProfileView.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		91D6EBC32B91A44400AF7542 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				91D6EBCE2B92CE1000AF7542 /* MenuView.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		91D6EBCD2B92CE0100AF7542 /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				91D6EBD02B92CE6B00AF7542 /* OnboardingView.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		91D6EBD22B92D23400AF7542 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				91D6EBD32B92D24700AF7542 /* HomeView.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +325,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D6EB952B919BF600AF7542 /* Persistence.swift in Sources */,
-				91D6EB8E2B919BF300AF7542 /* ContentView.swift in Sources */,
+				91D6EBCB2B92CA1000AF7542 /* DisplayDish.swift in Sources */,
+				91D6EBBC2B91A1D600AF7542 /* MenuList.swift in Sources */,
+				91D6EBBE2B91A20700AF7542 /* MenuItem.swift in Sources */,
 				91D6EB8C2B919BF300AF7542 /* PrimoFioriApp.swift in Sources */,
+				91D6EBCF2B92CE1000AF7542 /* MenuView.swift in Sources */,
 				91D6EB982B919BF600AF7542 /* PrimoFiori.xcdatamodeld in Sources */,
+				91D6EBD42B92D24700AF7542 /* HomeView.swift in Sources */,
+				91D6EBC92B92C89C00AF7542 /* FetchedObjects.swift in Sources */,
+				91D6EBD82B92D61700AF7542 /* ProfileView.swift in Sources */,
+				91D6EBD12B92CE6B00AF7542 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
